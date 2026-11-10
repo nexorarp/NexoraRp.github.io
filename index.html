@@ -3342,7 +3342,7 @@ font-size:21px;
 </div>
 <div class="support-row">
   <a class="social-card support" href="#" target="_blank" rel="noopener noreferrer">
-    <span aria-hidden="true">🛠️</span><span>پشتیبانی ۲۴/۷</span>
+    <span class="support-icon" aria-hidden="true"><svg viewBox="0 0 48 48" role="img" focusable="false"><defs><linearGradient id="supportIconGradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#08b9ed"/><stop offset="100%" stop-color="#075bd8"/></linearGradient></defs><path d="M8 25v-3a16 16 0 0 1 32 0v3" fill="none" stroke="url(#supportIconGradient)" stroke-width="4" stroke-linecap="round"/><rect x="6" y="23" width="9" height="15" rx="4" fill="none" stroke="url(#supportIconGradient)" stroke-width="3.5"/><rect x="33" y="23" width="9" height="15" rx="4" fill="none" stroke="url(#supportIconGradient)" stroke-width="3.5"/><path d="M38 37c-2 4-6 6-12 6h-3" fill="none" stroke="url(#supportIconGradient)" stroke-width="3.5" stroke-linecap="round"/><circle cx="21" cy="43" r="2.5" fill="url(#supportIconGradient)"/></svg></span><span>پشتیبانی ۲۴/۷</span>
   </a>
 </div>
 
@@ -3351,7 +3351,7 @@ font-size:21px;
 
 <div class="footer-copy">
 
-© 2026 nexora ROLEPLAY
+© 2026 NEXORA ROLEPLAY
 
 <br>
 
@@ -4477,5 +4477,22 @@ body {
 }
 </style>
 
+
+<style id="nexora-unified-page-background">
+/* پس‌زمینه‌ی یکدست در تمام بخش‌های سایت */
+html, body { background: #090d14 !important; background-color: #090d14 !important; }
+body { background-image: none !important; }
+main, section, footer, #about, #features, #stats, #leaders, #gallery, #social {
+  background-color: transparent !important;
+}
+</style>
 </body>
 </html>
+
+
+<style id="nexora-support-icon-final">
+#social .support-row .support{position:relative!important;padding-right:52px!important;padding-left:52px!important;}
+#social .support-row .support-icon{position:absolute!important;right:9px!important;top:50%!important;transform:translateY(-50%)!important;display:flex!important;align-items:center!important;justify-content:center!important;width:38px!important;height:38px!important;min-width:38px!important;min-height:38px!important;box-sizing:border-box!important;border-radius:50%!important;background:#fff!important;box-shadow:0 1px 5px rgba(0,0,0,.18)!important;}
+#social .support-row .support-icon svg{display:block!important;width:29px!important;height:29px!important;overflow:visible!important;}
+@media(max-width:600px){#social .support-row .support{padding-right:48px!important;padding-left:43px!important;}#social .support-row .support-icon{right:7px!important;width:36px!important;height:36px!important;min-width:36px!important;min-height:36px!important;}#social .support-row .support-icon svg{width:28px!important;height:28px!important;}}
+</style>
